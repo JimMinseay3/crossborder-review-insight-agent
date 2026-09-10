@@ -1,0 +1,14 @@
+review_id,rating,title,body,country,date,verified
+R001,5,Comfortable fit,Very comfortable for long calls and the sound is clear,US,2026-06-01,true
+R002,2,Battery disappoints,The battery lasts only four hours and charging is slow,US,2026-06-03,true
+R003,4,Good value,Great sound for the price and easy to pair,US,2026-06-04,true
+R004,1,Broke quickly,The hinge broke after two weeks and feels low quality,US,2026-06-07,true
+R005,5,Excellent sound,Clear audio and useful noise reduction in my office,US,2026-06-10,true
+R006,3,Tight fit,Sound is fine but the headband is uncomfortable,US,2026-06-11,true
+R007,2,Damaged package,The package arrived crushed although delivery was fast,US,2026-06-13,true
+R008,5,Long meetings,Comfortable during long meetings and worth the price,US,2026-06-15,true
+R009,4,Easy charging,USB C charging is convenient and the battery is good,US,2026-06-18,true
+R010,1,Audio cuts out,The sound cuts out and support could not fix it,US,2026-06-20,true
+R011,5,Feels durable,Better quality than my old headset and very comfortable,US,2026-06-21,true
+R012,3,Average value,Price is high for the battery life offered,US,2026-06-22,true
+
