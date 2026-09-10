@@ -1,15 +1,22 @@
-# Review Insight Agent
+<p align="center"><img src="docs/assets/hero.svg" alt="Review Insight Agent — Customer Voice Intelligence" width="100%"></p>
 
-> Turn Amazon customer reviews into traceable product insights, listing angles, and prioritized improvement actions.
-
-[![CI](https://github.com/JimMinseay3/crossborder-review-insight-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/JimMinseay3/crossborder-review-insight-agent/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.136%2B-009688?logo=fastapi&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+<h1 align="center">Review Insight Agent</h1>
+<p align="center"><strong>Evidence before opinion. Signals before summaries.</strong></p>
+<p align="center">
+  <a href="https://github.com/JimMinseay3/crossborder-review-insight-agent/actions/workflows/ci.yml"><img src="https://github.com/JimMinseay3/crossborder-review-insight-agent/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <img src="https://img.shields.io/badge/Python-3.11%2B-1f6f78?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/mode-offline_first-20a98e" alt="Offline first">
+  <img src="https://img.shields.io/badge/license-MIT-173f45" alt="MIT">
+</p>
+<p align="center"><a href="#快速开始">快速开始</a> · <a href="#输入格式">数据契约</a> · <a href="#api">API</a> · <a href="#已知边界">边界</a></p>
 
 评论洞察 Agent 是一个面向跨境电商卖家的本地可运行原型。它读取 Amazon 风格的评论 CSV，使用确定性规则提取主题、痛点、正向购买动机和代表性证据，并把结果保存为可审计的运行记录。
 
 默认 `mock` 模式完全离线，无需 API Key；也可以通过 OpenAI Responses API 增加语义摘要。模型失败不会影响基础统计和规则结果。
+
+| 项目状态 | 工程信号 | 决策安全 |
+|---|---|---|
+| **可运行 MVP** | CI、测试、SQLite 审计记录 | 小样本与未知主题自动转人工 |
 
 ## 能做什么
 
@@ -140,6 +147,12 @@ python -m pytest -q
 - ASIN、时间段和国家维度对比。
 - 退货原因与评论主题联合分析。
 - 可配置分类字典与人工标注反馈闭环。
+
+## Project
+
+- [Changelog](CHANGELOG.md)
+- [Contributing guide](CONTRIBUTING.md)
+- [MIT License](LICENSE)
 
 ## License
 
